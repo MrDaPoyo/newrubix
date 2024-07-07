@@ -1,0 +1,67 @@
+body {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 100vw;
+
+    background-color: grey;
+    background-image: url("static/images/winxp.webp");
+    background-size: cover;
+    position: relative;
+}
+header {
+    height: 100px;
+    width:80%;
+    background-color: pink;
+    padding: 10px 20px;
+}
+b {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    padding: 1%;
+    width: -webkit-fill-available;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    background-color: darkblue;
+    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.2);
+}
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding: auto;
+    align-items: center;
+    flex-direction: column;
+}
+.subcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+footer {
+    border-top: 2px solid black;
+    margin-top: 40px;
+    padding-top: 10px;;
+}
