@@ -220,7 +220,7 @@ main {
 
 @keyframes hover-background {
     0%{background-position-y:0%}
-    50%{background-position-y:50%}
+    50%{background-position-y:100%}
     100%{background-position-y:0%}
 }
 
