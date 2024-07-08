@@ -105,6 +105,12 @@ main {
     padding: 10px;
 }
 
+.flagcounter {
+    width: 100%;
+}
+
+
+
 @media screen and (max-width: 600px) {
     body{
         font-size: 0.7em; ;
