@@ -188,8 +188,31 @@ main {
     box-sizing: border-box;
     flex-wrap: wrap;
 }
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.button {
+    margin-top: 2.5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
 .nomp {
     margin: 0; padding: 0;
+}
+.solid {
+    border: 1px solid black;
+    width: 100%;
+    height: 1px;
+    box-sizing: border-box;
 }
 
 
