@@ -10,11 +10,11 @@ body {
 
 }
 header {
-    height: 100px;
+    height: 300px;
     width:80%;
     background-color: pink;
     background-image: url("static/images/banner.webp");
-    background-size: contain;
+    background-size: cover;
 }
 b {
     font-family: "Libre Baskerville", serif;
