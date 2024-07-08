@@ -7,7 +7,7 @@ body {
     background-image: url("static/images/winxp.webp");
     background-size: cover;
     position: relative;
-
+    overflow-x: hidden;
 }
 header {
     height: 300px;
@@ -15,6 +15,7 @@ header {
     background-color: pink;
     background-image: url("static/images/banner.webp");
     background-size: cover;
+    background-position: center;
 }
 b {
     font-family: "Libre Baskerville", serif;
@@ -102,4 +103,16 @@ main {
     width: 100%;
     background-color: red;
     padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        font-size: 0.7em; ;
+    }
+    header {
+        width: 100%;
+    }
+    .subcontainer {
+        width: 100%;
+    }
 }
