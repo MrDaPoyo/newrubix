@@ -8,11 +8,12 @@ body {
     background-size: cover;
     position: relative;
     overflow-x: hidden;
+    text-justify: kashida;
 }
 header {
     height: 250px;
     width:80%;
-    background-color: pink;
+    background-color: darkblue;
     background-image: url("static/images/empty-banner.webp");
     background-size: cover;
     background-position: center;
@@ -20,9 +21,15 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 25%;
-    padding-right: 10%;
+    flex-direction: column;
+    padding-left: 20%;
+    padding-right: 20%;
     box-sizing: border-box;
+    font-size: 1.2em;
+}
+header > * {
+    margin: 0;
+    padding: 0;
 }
 b {
     font-family: "Libre Baskerville", serif;
@@ -90,6 +97,7 @@ main {
     height: 100%;
     width: 20%;
     background-color: aliceblue;
+    box-sizing: border-box;
 }
 .main-container {
     height: 100%;
@@ -97,6 +105,7 @@ main {
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
+    box-sizing: border-box;
 }
 .get-involved {
     height: 20%;
