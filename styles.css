@@ -157,6 +157,7 @@ main {
     box-sizing: border-box;
     margin-top: 10px;
 }
+
 .main {
     height: 100%;
     width: 100%;
@@ -206,7 +207,7 @@ main {
 .buttons {
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-around;
+    justify-content: space-around;
 }
 
 .button {
@@ -279,12 +280,29 @@ marquee {
 
 
 
+@media screen and (max-width: 700px) {
+    body {
+        font-size: 0.7em;
+    }
 
+    header {
+        width: 100%;
+    }
+
+    .subcontainer {
+        width: 100%;
+    }
+
+    .search-container {
+        width: 100%;
+    }
+
+
+}
 
 @media screen and (max-width: 600px) {
     body {
-        font-size: 0.7em;
-        ;
+        font-size: 0.8em;
     }
 
     header {
@@ -301,5 +319,27 @@ marquee {
 
     nav>img {
         display: none;
+    }
+
+    .main-content>img {
+        display: none;
+    }
+    .ann-board>h3 {
+        font-size: 0.6em;
+    }
+    ul {
+        margin: 0;
+        padding-left: 10%;
+        box-sizing: border-box;
+        font-size: 0.7em;
+    }
+    ul>li {
+        list-style-type: none;
+    }
+    .ann-board>a,
+    li,
+    h3 {
+        font-size: 0.8em;
+        /* Adjust the font size for smaller screens */
     }
 }
