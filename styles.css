@@ -21,8 +21,6 @@ header {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding-left: 20%;
-    padding-right: 20%;
     box-sizing: border-box;
     font-size: 1.2em;
     position: relative;
